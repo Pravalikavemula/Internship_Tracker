@@ -1,0 +1,14 @@
+
+
+<!-- templates/accounts/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.username }}!</h1>
+    <p><a href="{% url 'submit_log' %}">Submit Daily Log</a></p>
+    <p><a href="{% url 'logout' %}">Logout</a></p>
+</body>
+</html>
